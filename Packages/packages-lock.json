@@ -1,5 +1,11 @@
 {
   "dependencies": {
+    "com.fluid.behavior-tree": {
+      "version": "file:D:/Game Developing/Unity Project/CustomPackage/com.fluid.behavior-tree",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {}
+    },
     "com.unity.2d.animation": {
       "version": "9.2.0",
       "depth": 1,

@@ -336,7 +336,6 @@ GameObject:
   m_Component:
   - component: {fileID: 3667211753972221885}
   - component: {fileID: 5410375836719965934}
-  - component: {fileID: 2604782281644724063}
   m_Layer: 0
   m_Name: Simple Retro Car
   m_TagString: Untagged
@@ -390,31 +389,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &2604782281644724063
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3638911070570068518}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 99d48da92e14d2344be8d1c5482c34df, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CenterOfMass: {x: 0, y: 0.61, z: 0.06}
-  PathGroup: {fileID: 0}
-  MaxSteer: 15
-  DistFromPath: 5
-  wheelFL: {fileID: 4879824414665516637}
-  wheelFR: {fileID: 8007057052978215762}
-  wheelRL: {fileID: 7800581202945908957}
-  wheelRR: {fileID: 4798151305287782875}
-  MaxTorque: 182
-  TopSpeed: 150
-  DecelerationSpeed: 10
-  CurrentPathIndex: 0
-  CurrentSpeed: 0
 --- !u!1 &4576468817563483559
 GameObject:
   m_ObjectHideFlags: 0
